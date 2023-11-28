@@ -1,0 +1,25 @@
+{
+  "name": "react-native-debugger",
+  "version": "0.14.0",
+  "productName": "React Native Debugger",
+  "description": "The standalone app for React Native Debugger, with React DevTools / Redux DevTools",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhen0409/react-native-debugger.git"
+  },
+  "author": "Jhen <developer@jhen.me>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "adbkit": "^2.11.0",
+    "electron-store": "^1.2.0",
+    "react-devtools-core": "^4.28.0"
+  },
+  "devDependencies": {
+    "apollo-client-devtools": "^4.1.4",
+    "patch-package": "^6.2.2"
+  }
+}

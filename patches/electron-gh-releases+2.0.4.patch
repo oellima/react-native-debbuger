@@ -1,0 +1,13 @@
+diff --git a/node_modules/electron-gh-releases/GhReleases.js b/node_modules/electron-gh-releases/GhReleases.js
+index cabe3b9..5ce1e2c 100644
+--- a/node_modules/electron-gh-releases/GhReleases.js
++++ b/node_modules/electron-gh-releases/GhReleases.js
+@@ -103,7 +103,7 @@ var GhReleases = function (_events$EventEmitter) {
+       }
+ 
+       // On Mac we need to use the `auto_updater.json`
+-      feedUrl = 'https://raw.githubusercontent.com/' + this.repo + '/master/auto_updater.json';
++      feedUrl = 'https://raw.githubusercontent.com/' + this.repo + '/master/auto_update.json';
+ 
+       // Make sure feedUrl exists
+       return got.get(feedUrl).then(function (res) {

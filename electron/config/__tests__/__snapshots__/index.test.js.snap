@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`openConfigFile 1`] = `
+{
+  "config": {
+    "autoUpdate": true,
+    "defaultNetworkInspect": false,
+    "defaultRNPackagerPorts": [
+      8081,
+    ],
+    "defaultReactDevToolsPort": 19567,
+    "defaultReactDevToolsTheme": "RNDebugger",
+    "editor": "",
+    "timesJSLoadToRefreshDevTools": -1,
+    "windowBounds": {
+      "frame": true,
+    },
+  },
+}
+`;
+
+exports[`readConfig 1`] = `
+{
+  "config": {
+    "autoUpdate": true,
+    "defaultNetworkInspect": false,
+    "defaultRNPackagerPorts": [
+      8081,
+    ],
+    "defaultReactDevToolsPort": 19567,
+    "defaultReactDevToolsTheme": "RNDebugger",
+    "editor": "",
+    "timesJSLoadToRefreshDevTools": -1,
+    "windowBounds": {
+      "frame": true,
+    },
+  },
+}
+`;
+
+exports[`readConfig 2`] = `
+{
+  "config": {
+    "autoUpdate": false,
+  },
+}
+`;
+
+exports[`readConfig 3`] = `
+{
+  "config": {
+    "autoUpdate": true,
+    "defaultNetworkInspect": false,
+    "defaultRNPackagerPorts": [
+      8081,
+    ],
+    "defaultReactDevToolsPort": 19567,
+    "defaultReactDevToolsTheme": "RNDebugger",
+    "editor": "",
+    "timesJSLoadToRefreshDevTools": -1,
+    "windowBounds": {
+      "frame": true,
+    },
+  },
+  "error": [SyntaxError: Unexpected 'i' at line 1 column 16 of the JSON5 data. Still to read: "is_broken, }"],
+  "isConfigBroken": true,
+}
+`;
